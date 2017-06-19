@@ -10,4 +10,4 @@ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:. java \
  -Dsnap.mainClass=org.esa.snap.core.gpf.main.GPT\
  -Dsnap.home=/usr/local/snap\
  -Xmx${HEAP_MEM}m\
- -jar /usr/local/snap/snap/modules/ext/org.esa.snap.snap-core/org-esa-snap/snap-runtime.jar
+ -jar {SNAP_HOME}/snap/modules/ext/org.esa.snap.snap-core/org-esa-snap/snap-runtime.jar
